@@ -44,7 +44,7 @@ const handleStatus = (status) => {
                 <a href="#" className="text-primary">{item.product}
                 </a>
                 </td>
-            <td>${item.price.toFixed(2)}</td>
+            <td>${item.price}</td>
             <td>
                 <span className={`badge bg-${handleStatus(item.status)}`}>
                     {item.status}
